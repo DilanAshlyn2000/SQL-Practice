@@ -45,3 +45,7 @@ update employee set hire_date="2024-10-07" where emp_id="222";
 update employee set hire_date="2024-10-08" where emp_id="345";
 update employee set hire_date="2024-10-09" where emp_id="395";
 update employee set hire_date="2024-10-03" where emp_id="672";
+
+SELECT * FROM Employee
+WHERE salary>25000
+ORDER BY job_description;
